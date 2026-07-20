@@ -1,80 +1,195 @@
-# Harsh Goyal — Developer & Designer Portfolio
+# Adnan Sajjad Makrani — Data Analyst Portfolio
 
-A dark-themed personal portfolio for **Harsh Goyal** — Computer Science graduate from NSUT, currently a Content R&D Trainee at PhysicsWallah. Focused on UI/UX, front-end development, and GenAI integration.
+A modern dark-themed portfolio showcasing my experience in **Data Analytics, Business Intelligence, Financial Analytics, and Generative AI**.
 
-Built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion**. Designed for one-click deployment on **Vercel**.
+Built with **React + TypeScript + Vite + Tailwind CSS + Framer Motion** and designed to highlight data-driven projects, dashboards, and analytical solutions.
 
-## Stack
+## About Me
+
+I'm Adnan Sajjad Makrani, a Data Analyst with 2 years of experience transforming raw data into actionable business insights. I specialize in SQL, Power BI, Python, Excel, and Generative AI, helping businesses make smarter decisions through analytics, reporting, and visualization.
+
+## Tech Stack
 
 - React 18 / TypeScript
-- Vite (build tool)
-- Tailwind CSS (utility-first styling)
-- Framer Motion (animations + scroll effects)
-- Lucide React (icons)
-- Kanit font (Google Fonts, weights 300–900)
+- Vite
+- Tailwind CSS
+- Framer Motion
+- SQL
+- Python
+- Power BI
+- Excel
+- Git & GitHub
+- OpenAI / Gemini / Claude
 
-## Sections
+## Portfolio Sections
 
-1. **Hero** — name, tagline, magnetic-hover portrait
-2. **About** — bio + skills grouped by Languages / Frameworks / Tools / AI
-3. **Services** — UI/UX Design, Web Design, Front-end Development, GenAI Integration
-4. **Projects** — sticky-stacking cards for AI Tutor, PiLearn, ResumeIQ, Notch
-5. **Contact** — Email, WhatsApp, LinkedIn, GitHub
+### 1. Hero
+- Professional introduction
+- Data Analyst branding
+- Contact CTA
 
-## Run locally
+### 2. About
+- Professional background
+- Skills and technologies
+- Analytics expertise
+
+### 3. Services
+- Data Analysis
+- Business Intelligence
+- Dashboard Development
+- Financial Analytics
+- Generative AI Integration
+
+### 4. Projects
+Featured portfolio projects including:
+
+#### E-Commerce Sales Analysis
+- SQL
+- Power BI
+- Customer Analytics
+- Revenue Analysis
+
+#### Customer Shopping Behavior Analysis
+- Python
+- SQL
+- Power BI
+- Data Visualization
+
+#### Music Festival Analytics Dashboard
+- Power BI
+- DAX
+- Financial Reporting
+
+#### Credit Risk Assessment Analysis
+- Financial Analysis
+- Risk Assessment
+- Business Reporting
+
+#### CPI Inflation Dashboard
+- Power BI
+- Time Series Analysis
+- Economic Analytics
+
+### 5. Contact
+- Email
+- LinkedIn
+- GitHub
+- Freelance Inquiries
+
+---
+
+## Run Locally
 
 ```bash
 npm install
-npm run dev      # http://localhost:5173
-npm run build    # production build → /dist
-npm run preview  # serve /dist locally
+npm run dev
+npm run build
+npm run preview
 ```
 
-## Deploy to Vercel
+---
 
-Push to GitHub → import the repo at [vercel.com/new](https://vercel.com/new) → click Deploy. No environment variables needed.
+## Deploy on Vercel
 
-## Project structure
+Push your repository to GitHub and deploy directly using:
 
-```
+https://vercel.com/new
+
+No environment variables required.
+
+---
+
+## Project Structure
+
+```text
 src/
-├── App.tsx                    # composes all sections
-├── main.tsx                   # React entry
-├── index.css                  # global styles + .hero-heading gradient
+├── App.tsx
+├── main.tsx
+├── index.css
 └── components/
-    ├── HeroSection.tsx        # navbar, massive heading, magnetic portrait
-    ├── AboutSection.tsx       # bio, animated text, skills grid
-    ├── ServicesSection.tsx    # white section, 4 numbered services
-    ├── ProjectsSection.tsx    # sticky-stacking project cards
-    ├── ContactSection.tsx     # 4 contact methods with icons
-    │
-    ├── ContactButton.tsx      # gradient pill CTA
-    ├── LiveProjectButton.tsx  # ghost outline pill
-    ├── FadeIn.tsx             # whileInView animation wrapper
-    ├── Magnet.tsx             # mouse-following magnetic hover
-    └── AnimatedText.tsx       # char-by-char scroll-driven reveal
+    ├── HeroSection.tsx
+    ├── AboutSection.tsx
+    ├── ServicesSection.tsx
+    ├── ProjectsSection.tsx
+    ├── ContactSection.tsx
+    ├── ContactButton.tsx
+    ├── LiveProjectButton.tsx
+    ├── FadeIn.tsx
+    ├── Magnet.tsx
+    └── AnimatedText.tsx
 ```
 
-## Featured projects
+---
 
-| Project | Live | Built with |
-|---|---|---|
-| ResumeIQ | [resumeiq-harsh.vercel.app](https://resumeiq-harsh.vercel.app) | React, Gemini API, Vercel |
-| Notch | [notch-zeta.vercel.app](https://notch-zeta.vercel.app) | React, Tailwind, Framer Motion |
+## Skills
 
-## Customisation
+### Languages
+- SQL
+- Python
+- DAX
+- Power Query
 
-| Want to change | Open this file |
-|---|---|
-| Name, nav links, hero text | `src/components/HeroSection.tsx` |
-| About paragraph, skills list | `src/components/AboutSection.tsx` |
-| Services list | `src/components/ServicesSection.tsx` (`SERVICES` array) |
-| Projects, screenshots, live URLs | `src/components/ProjectsSection.tsx` (`PROJECTS` array) |
-| Contact methods | `src/components/ContactSection.tsx` (`CONTACT_METHODS` array) |
-| Project screenshots | drop new images in `public/` and reference as `/filename.png` |
-| Brand gradient, font, dark colour | `src/index.css` and `tailwind.config.js` |
-| Page title, meta description | `index.html` |
+### Analytics & BI
+- Power BI
+- Excel
+- Data Visualization
+- Dashboard Development
+- Business Intelligence
 
-## Credits
+### Tools & Platforms
+- MySQL
+- Git
+- GitHub
+- VS Code
+- Jupyter Notebook
 
-Designed & built by **Harsh Goyal** · [LinkedIn](https://www.linkedin.com/in/harsh-goyal-7900b2256/) · [GitHub](https://github.com/harshgoyal27)
+### AI & Generative AI
+- OpenAI
+- Gemini
+- Claude
+- Prompt Engineering
+- GenAI Integration
+
+---
+
+## Featured Projects
+
+| Project | Technologies |
+|----------|-------------|
+| E-Commerce Sales Analysis | SQL, Power BI |
+| Customer Shopping Behavior Analysis | Python, SQL, Power BI |
+| Music Festival Dashboard | Power BI, DAX |
+| CPI Inflation Dashboard | Power BI |
+| Credit Risk Assessment | Financial Analytics |
+
+---
+
+## Contact
+
+📧 Email: adnansajjad360@gmail.com
+
+💼 LinkedIn: linkedin.com/in/adnan-sajjad
+
+💻 GitHub: github.com/adnan-sajjad
+
+🌐 Portfolio: (Add your domain after deployment)
+
+---
+
+## Available for Freelance Work
+
+I am available for freelance opportunities in:
+
+- Data Analysis
+- Power BI Dashboard Development
+- SQL Reporting
+- Business Intelligence
+- Financial Analytics
+- Generative AI Solutions
+
+Let's turn data into actionable insights.
+
+---
+
+**Designed & Built by Adnan Sajjad Makrani**
+**Data Analyst | Business Intelligence | Generative AI**
