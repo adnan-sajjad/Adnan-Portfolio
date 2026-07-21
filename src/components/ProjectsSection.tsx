@@ -45,7 +45,7 @@ const PROJECTS: ProjectData[] = [
     number: '04',
     category: 'Personal · Design',
     name: 'Traffic-Violation',
-    liveUrl: 'https://notch-zeta.vercel.app/',
+    liveUrl: 'https://github.com/adnan-sajjad/Trafic_Violations_project',
     col1Image1: '/tet1.png',
     col1Image2: '/tet2.png',
     col2Image: '/tet3.png',
